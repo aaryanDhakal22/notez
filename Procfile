@@ -1,1 +1,1 @@
-web: gunicorn notez.wsgi
+web: gunicorn Notez.wsgi
