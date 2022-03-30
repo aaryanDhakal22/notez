@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
+    "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: black;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+:root {
+  --blue: #0d6efd;
+  --light-blue: #0dcaf0;
+  --red: #aa0000;
+  --light-red: #ff8e8e;
+  --orange: #00a300;
+  --light-orange: #abff91;
+}
+.text-area-comp {
+  resize: none;
+  outline: none;
+  border: none;
+  width: 100%;
+}
+.text-area-comp:active {
+  outline: none;
+}
+/* --------------------------------- */
+.prime-text-blue {
+  color: var(--blue);
+}
+.prime-border-blue {
+  border: 1px solid var(--blue);
+}
+.prime-button-blue {
+  background-color: var(--blue);
+  color: white;
+  border: none;
+}
+/* -------------------------- */
+.second-text-blue {
+  color: var(--light-blue);
+}
+.second-border-blue {
+  border: 1px solid var(--light-blue);
+}
+.second-button-blue {
+  background-color: var(--light-blue);
+}
+/* --------------------------------- */
+.prime-text-red {
+  color: var(--red);
+}
+.prime-border-red {
+  border: 1px solid var(--red);
+}
+.prime-button-red {
+  background-color: var(--red);
+  color: white;
+  border: none;
+}
+/* --------------------------------------- */
+.second-text-red {
+  color: var(--light-red);
+}
+.second-border-red {
+  border: 1px solid var(--light-red);
+}
+.second-button-red {
+  background-color: var(--light-red);
+}
+/* ------------------------------------ */
+.prime-text-orange {
+  color: var(--orange);
+}
+.prime-border-orange {
+  border: 1px solid var(--orange);
+}
+.prime-button-orange {
+  background-color: var(--orange);
+  color: white;
+  border: none;
+}
+/* --------------------------------------- */
+.second-text-orange {
+  color: var(--light-orange);
+}
+.second-border-orange {
+  border: 1px solid var(--light-orange);
+}
+.second-button-orange {
+  background-color: var(--light-orange);
+}
+/* ------------------------------------ */
+
